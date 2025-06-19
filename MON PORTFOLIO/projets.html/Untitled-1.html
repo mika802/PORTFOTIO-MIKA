@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mes Projets</title>
+</head>
+<body>
+     <a>
+        <a href="https://www.google.com"> ceci est un lien versGoogle.com</a>
+    </a>
+    <a href="index.html">
+        <img src="images/logo.png" alt="Logo de mon Portefolio" style="width: 100px; height: auto;">
+<div class="section">
+        <div class="boxed text-center">
+           <h2>Mes projets</h2> 
+           <inframe arc="URL_DU_PROJRT" WIDTH="600" heigth="400"> HOBBIE CENTER></inframe>
+           <div class="flex wrap-space-between">
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>Ecole</h3>
+                </a>
+            </div>
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation2.jpg/">
+                    <h3>blibliotheque</h3>
+                </a>
+            </div>
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation3.jpg/">
+                    <h3>eglise</h3>
+                </a>
+            </div>
+            <script>
+                // Code JavaScript pour les interactions
+                document.querySelectorAll('.projet a').forEach(item => {
+                    item.addEventListener('click', event => {
+                        event.preventDefault();
+                        alert('Lien cliqué: ' + item.href);
+                    });
+                });
+            </script>
+            <script src="js/script.js"></script>
+</body>
+</html>

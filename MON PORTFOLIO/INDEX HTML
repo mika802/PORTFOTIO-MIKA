@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+    <title>MON PORTFOLIO</title>
+    <meta type="description" content="Ceci est mon PORTFOLIO Folio">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <a>
+    <link rel="stylesheet" href="styles/style.css">
+    <a>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/material-icons.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/hobbies.css">
+        <link rel="stylesheet" href="css/activites.css">
+        <link rel="stylesheet" href="css/formulaire.css">
+        <link rel="stylesheet" href="css/competences.css">
+        <link rel="stylesheet" href="css/accueil.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <a href="/" class="header-logo">
+                    <img src="img/logo html-logo.png" >
+                </a>
+                        <ul class="header-menu">
+                            <li><a href="#contact">html</a></li>
+                            <li><a href="#contact">css</a></li>
+                            <li><a href="#contact">javascript</a></li>
+                            <li><a href="#about">hobbies center</a></li>
+                            <li><a href="#skills">Ecole</a></li>
+                            <li><a href="#projects">Bibliotheque</a></li>
+                            <li><a href="#contact">eglise</a></li>
+                        </ul>
+                    
+                
+            </div>
+        </div>
+    </header>
+     <div clas="slider">
+     <img class="slider-background">src="img/slider.jpg">
+     <div class="slider-content">
+        <h1>Michel-Ange Pierre</h1>
+        <p>Je suis formatrice en Psychogie de l'enfance</p>
+     </div>
+     <div class="section">
+        <div class="boxed">
+            <div class="flex tocolumn mcenter"> 
+                <div class="w40 wm100"></div>
+                  <h2>A propos de moi</h2>
+            </div>
+            <div  class="w60 wm100">
+                  <p> mon CV</p>
+                  
+            </div>
+
+            </div>
+
+        </div>
+
+     </div>
+    <div class="section dark">
+        <div class="boxed text-center">
+            <h2>Decouvrez mes  ocmpetences</h2>
+            <div classe="flex">
+                <div clas="w25 wm100 skill">
+                    <img src="img/html-lodo.png">
+                    <h3>hml</h3>
+                </div>
+                <div>
+                    <div clas="w25 wm100 skill">
+                    <img src="img/css-lodo.png"></div>
+                    <h3>css</h3>>
+            </div>>
+            <div>
+                <div clas="w25 wm100 skill">
+                    <img src="img/javascript-lodo.png"></div>
+                    <h3>javascript</h3>
+            </div>
+            <div>
+               <div clas="w25 wm100 skill">
+                    <img src="img/next js-lodo.png"></div> 
+                    <h3>next js</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="section">
+        <div class="boxed text-center">
+           <h2>Mes realisations</h2> 
+           <div class="flex wrap-space-between">
+            <div class="w32 realisations">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>site de cuisine</h3>
+                </a>     
+            </div>
+            <div class="w32 wm50 realisations">
+                <a href="/">
+                    <img src="log/creation2.jpg/">
+                </a>
+           </div>
+            <div class="w32 wm50 realisations">
+                <a href="">
+                    <img src="log/creation3.jpg/">
+                </a>
+                </div>
+                           <div class="w32 wm50 realisations">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                </a>     
+            </div>
+            <div class="w32 wm50 realisations">
+                <a href="">
+                    <img src="log/creation2.jpg/">
+                </a>
+           </div>
+            <div class="w32 wm50 realisations">
+                <a href="">
+                    <img src="log/creation3.jpg/">
+                </a>
+                </div>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+     <div class="section">
+        <div class="boxed text-center">
+           <h2></contactez-moi></h2> 
+           <div class="flex wrap-space-between">
+            <div class="w32 contact">
+                <span class=" Material-icons icon">mail</span>
+                <span>Label</span>
+                <span>E-mail</span>
+                <span class="value">monemail@example.com</span>
+                </div>
+                <div class="w32 contact">
+                    <span class=" Material-icons icon">phone</span>
+                    <span>Label</span>
+                    <span>E-mail</span>
+                    <span class="value">monemail@ex</span>
+                </div>
+                <div class="w32 contact">
+                    <span class=" Material-icons icon">location_on</span>
+                    <span>Label</span>
+                    <span>E-mail</span>
+                    <span class="value">monemail@example.com</span>
+                </div>
+                <div class="w32 contact">
+                    <span class=" Material-icons icon">location_on</span>
+                    <span>Label</span>
+                    <span>E-mail</span>
+                    <span class="value">monemail@example.com</span>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="section">
+        <div class="boxed text-center">
+           <h2>Mes projets</h2> 
+           <inframe arc="URL_DU_PROJRT" WIDTH="600" heigth="400"> HOBBIE CENTER></inframe>
+           <div class="flex wrap-space-between">
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>Ecole</h3>
+                </a>
+            </div>
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation2.jpg/">
+                    <h3>blibliotheque</h3>
+                </a>
+            </div>
+            <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation3.jpg/">
+                    <h3>eglise</h3>
+                </a>
+            </div>
+            
+            <div class="section">
+        <div class="boxed text-center">
+           <h2>Mes hobbies</h2> 
+           <div class="flex wrap-space-between">
+            <div class="w32 hobbies">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>hobbies</h3>
+                </a>
+            </div>
+                <div class="w32 hobbies">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>Lecture</h3>
+        </div>
+        <div>
+                <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>La danse</h3>
+        </div>
+        <div class="w32 hobbies">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>enseignement</h3>
+    </div>
+            <div>
+                 <div class="section">
+                 <div class="boxed text-center">
+                 <h2>Mes activites sportives</h2> 
+                 <div class="flex wrap-space-between">
+                 <div class="w32 activites sportives">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>Le football</h3>
+                </a>
+        </div>
+        <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>bascket-ball</h3>
+                </a>
+        </div>
+        <div class="w32 activite sportives">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>le tenis</h3>
+                </a>
+                </div>
+                 <div>
+                 <div class="section">
+                 <div class="boxed text-center">
+                 <h2>Formulaire de demande d'information</h2> 
+                 <div class="flex wrap-space-between">
+                 <div class="w32 projet">
+                <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>formulaire de demande de visa</h3>
+                </a>
+        </div>
+                  <div class="w32 formulaire">
+                 <a href="">
+                    <img src="log/creation.jpg/">
+                    <h3>formulaire d'inscrioption</h3>
+                      </a>
+                      </div>
+                  </div>    
+            </div>
+       </div>      
+</div>
+
+<script src="js/app.js"></script>
+<script>
+
+</body>
+</html>

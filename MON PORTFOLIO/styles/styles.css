@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.accueil-img {
+    max-width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center;
+}
+.text-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.accueil color {
+    color: red;
+}
+.h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+<body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+.slider{
+    width:100;
+    height:80vh;
+    background: red;
+    position: relative;
+}
+.slider-background{
+    width:800;
+    height:100;
+    object-fit: cover;
+    filter:brightness(50%)
+}
+.slider-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1{
+    color: aquamarine;
+    font-size: large;
+
+}
+
+h2{
+    .font-size:3rem:
+    margin-bottom: 100px;
+}
+
+.slider contenp{
+    font-size: 1,5rem;
+    line-height: 1,5em;
+}
+ p{
+    color:white
+    font-size:zero;
+    font: weihgt 300px;
+
+}
+
+.section (
+    position:100pxs: 0;
+)
+.boxed {
+    max: width 1200px;
+    margin-inline: auto;
+}
+.flex {
+    display:flex:
+}
+.dark {
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)) url(../img/slider.jpg);
+    background-size: cover;
+    background-position-y;50%;
+    color: #fff;
+}
+.w40 {
+   width:40%;
+ 
+}
+
+.w60 {
+    width:60%;
+}
+.text-center {
+    text-align: center;
+}
+w25 (
+    width:25%;
+)
+.glas.gap20(
+    gap:20px;
+)
+.wrap {
+    flex-wrap: wrap;
+}
+.w32 (
+
+)
+
+.soace-between (
+    justify-content: space-between;
+)
+skil (
+background:sfff;
+border-radius: 15px;
+padding:20psx;
+box-sizinf:border-boxe;
+
+)
+.skill img(
+    width: 100px;
+    heigth: 100%;
+    aspect-ratio: 1/1
+    0bjet-fit: containt;
+)
+.skill h3(
+    margin-top:10px;
+
+)
+.realisation (
+    heigth: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+
+)
+.realisation h3 (
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content: 100%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    0bject-fit: cover;
+    font-weight: bold;
+    overcity: 0;
+    transition: color 0.4s ease-in-out;
+)
+.realisation a(
+    display: block;
+    width: 100%;
+    heigth:100%;
+    text-decoration: none;
+    color: white;
+)
+.realisaio  log(
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    filter: brightness(50%)
+    transition: filter 0.4s ease-in-out;
+)
+.realisation:hover img {
+    filter: brightness(60%);
+}
+.realisation:hover h3 {
+    color: aquamarine;
+    overcity: 1;
+}
+.icon (
+    display: block;
+    font-size: 40px !important;
+)
+.Label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.value {
+    display: block;
+    font-size: 1.5rem;
+    color: gray;
+}
+.contact {
+    border: 2px; dashed #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hobbie center {
+    width: calc(33.333% - 20px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.Ecole{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.bibliotheque{
+    transform: scale(1.1);
+}
+.project-item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.eglise {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.hobbies {
+    width: 100px;
+    height: 15rem;
+
+}
+.lecture (
+
+)
+.danse (
+
+)
+.enseignement (
+
+)
+.activites sportives {
+
+}
+.football {
+    
+}
+.basketball-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.course {
+
+}
+aligncenter {
+    align-items: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 100%;
+    background: white;
+    z-index: 999;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.header-logo {
+    display: block;
+}
+.header-logo img {
+    display: block;
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+header-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+.header-menu li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+    transition: background 0.3s ease;
+}
+.header-menu li a:hover {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.header-menu li :last-child a {
+    background: red;
+    color: white;
+    border-radius: 5px;
+.slider {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.media (max-width: 768px) {
+    .header {
+        display:none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        z-index: 999;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .slider-content {
+        width:90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .slider-content h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        Text-wrap:ba lance;
+    }
+   .h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+} 
+}
+
+}
+.tocolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.mcenter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+wm100 {
+    width: 100%; important;
+.section {
+    padding: 50px 0;
+    background: #f4f4f4;
+.boxed {
+    max-width: 90px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
